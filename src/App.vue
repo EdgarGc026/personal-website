@@ -1,28 +1,22 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <px-hero />
+    <px-skill />
+    <px-about />
+    <px-portfolio />
+    <px-footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import PxHero from "@/components/PxHero";
+import PxSkill from "@/components/PxSkill";
+import PxAbout from "@/components/PxAbout";
+import PxPortfolio from "@/components/PxPortfolio";
+import PxFooter from "@/components/PxFooter";
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  name: "App",
+  components: { PxHero, PxSkill, PxAbout, PxPortfolio, PxFooter },
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
