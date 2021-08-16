@@ -8,6 +8,7 @@
   --eerie-black: #151515;
   --just-white: #ffffff;
   --gray: #808080;
+  --vuejs: #41b883;
   --flickr-blue: #065fd4;
   --yale-blue: #174888;
 }
@@ -20,6 +21,10 @@ body {
 /* Hero Component */
 h1 {
   font-size: 2.5rem;
+}
+
+.img-icon {
+  width: 25px;
 }
 
 .grid {
@@ -185,7 +190,7 @@ skills {
 }
 
 .portfolio-container {
-  grid-column: 6/13;
+  grid-column: 1/-1;
   grid-row: 1/-1;
   margin-bottom: 20px;
 }
@@ -195,14 +200,15 @@ skills {
   margin: 15px auto;
 }
 
-.portfolio-settings {
-  grid-column: 1/5;
-  grid-row: 1/-1;
+.portfolio--icons {
+  font-size: 25px;
+  margin: 0 5px 0 12px;
 }
 
 .button-container {
   width: 100%;
   display: flex;
+  justify-content: center;
   border-bottom: 2px var(--eerie-black) dotted;
 }
 
@@ -213,10 +219,10 @@ skills {
 }
 
 .button {
-  max-width: 250px;
   width: 50%;
-  min-width: 110px;
+  max-width: 260px;
   height: 50px;
+  min-width: 110px;
   margin: 5px 10px;
   padding: 5px;
   display: flex;
@@ -224,7 +230,7 @@ skills {
   align-items: center;
   font-size: 14px;
   border-radius: 10px;
-  background-color: var(--flickr-blue);
+  background-color: var(--eerie-black);
   text-decoration: none;
   color: #fff;
   cursor: pointer;
@@ -232,11 +238,13 @@ skills {
 
 .description {
   font-size: 1.1rem;
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
 
 .button:hover {
-  background: var(--yale-blue);
+  border: 2px solid var(--eerie-black);
+  color: var(--eerie-black);
+  background-color: var(--just-white);
 }
 
 .portfolio--options {
@@ -249,19 +257,25 @@ skills {
   padding: 10px 0;
 }
 
+.portfolio-tech {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+}
+
 .settings--button {
   width: 100px;
   height: 30px;
   color: var(--just-white);
-  background-color: var(--flickr-blue);
+  background-color: var(--eerie-black);
   border-radius: 5px;
   border: none;
   cursor: pointer;
 }
 
 .settings--button:hover {
-  border: 2px solid var(--flickr-blue);
-  color: var(--yale-blue);
+  border: 2px solid var(--eerie-black);
+  color: var(--eerie-black);
   background-color: var(--just-white);
 }
 
@@ -297,4 +311,171 @@ skills {
 
 [class^="footer-item"]:hover {
   border-bottom: 2px solid white;
+}
+/*  */
+
+/* Float Component */
+.action {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background: var(--vuejs);
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.action span {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--just-white);
+  font-size: 2em;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.action.active span {
+  transform: rotate(135deg);
+}
+
+.action ul {
+  min-width: 250px;
+  position: absolute;
+  right: 45px;
+  bottom: 45px;
+  padding: 20px;
+  border-radius: 20px;
+  opacity: 0;
+  background: var(--just-white);
+  border: 2px solid var(--vuejs);
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.action.active ul {
+  bottom: 45px;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.action ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+  list-style: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.action ul li:hover {
+  font-weight: 600;
+}
+.action ul li:not(:last-child) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.action ul li img {
+  width: 30px;
+  margin-right: 10px;
+  opacity: 0.2;
+  transform: scale(0.8);
+}
+
+.action ul li:hover img {
+  opacity: 0.8;
+}
+/*  */
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+  .header {
+    height: auto;
+  }
+
+  .grid {
+    gap: 10px;
+  }
+
+  .hero-img,
+  .hero-texts {
+    grid-column: 1/-1;
+  }
+
+  .hero-texts {
+    margin-top: 40px;
+  }
+
+  .hero-img {
+    text-align: center;
+  }
+
+  .skills {
+    height: auto;
+    motion-path: 40px;
+  }
+
+  .item {
+    width: 60%;
+    height: auto;
+    margin: 30px 0;
+    padding: 40px;
+  }
+
+  .portfolio-container {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    align-self: center;
+  }
+
+  .portfolio-settings {
+    grid-column: 1/-1;
+    grid-row: 2/3;
+    text-align: center;
+  }
+
+  .button-container {
+    justify-content: space-evenly;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .img {
+    max-width: 170px;
+    margin: 20px 0;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  }
+
+  .item {
+    width: 90%;
+    flex-shrink: 0;
+  }
+
+  .about--profile {
+    border-bottom: 1px dotted white;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+  }
+
+  .portfolio-container h3 {
+    margin: 15px;
+  }
+
+  .portfolio-settings {
+    display: none;
+  }
+
+  [class^="footer-item"] {
+    grid-column: 1/-1;
+  }
 }

@@ -6,12 +6,18 @@ import {
   faPhp,
   faVuejs,
   faJs,
+  faBootstrap,
   faGithub,
   faFirefoxBrowser,
   faInstagram,
   faLinkedinIn,
   faTwitter,
+  faHtml5,
+  faCss3,
+  faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
+
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(
@@ -24,7 +30,12 @@ library.add(
   faFirefoxBrowser,
   faInstagram,
   faLinkedinIn,
-  faTwitter
+  faTwitter,
+  faPlus,
+  faBootstrap,
+  faHtml5,
+  faCss3,
+  faNodeJs
 );
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

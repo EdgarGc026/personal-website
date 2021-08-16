@@ -3,7 +3,7 @@
     <div class="grid">
       <div class="hero-texts">
         <h1 class="wieight-600">
-          Edgar González Contreras <br />
+          Edgar González <br />
           <span class="weight-400">PHP Developer</span>
         </h1>
         <p class="parraph"></p>
