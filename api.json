@@ -1,0 +1,263 @@
+{
+  "data": {
+    "english": {
+      "name": "Edgar Gonzalez",
+      "profession": "FullStack Developer",
+
+      "aboutMe": [
+        {
+          "description": "Hello! I am Full-Stack developer focused on PHP, Node and Java. I have experience working with: Laravel, PHP and Node. As well as frontend technologies such as: vue, jQuery and Javascript "
+        },
+        {
+          "legend": "I also love food"
+        }
+      ],
+
+      "frontend": [
+        {
+          "id": 1,
+          "name": "Expense Report",
+          "description": " Created with Laravel and Booststrap, a simple app to add tasks. In addition to sending tasks by email ",
+          "technologies": ["laravel", "bootstrap", "php"],
+          "code": "",
+          "demo": ""
+        },
+        {
+          "id": 2,
+          "name": "Batatabit movil",
+          "description": " Static page for a bitcoin company.  ",
+          "technologies": ["html", "css"],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 3,
+          "name": "Creaty Agency",
+          "description": " Created with Vuejs, HTML and CSS. Website of a web development agen ",
+          "technologies": ["vue", "html", "css"],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 4,
+          "name": "Exchange, Crytpo App",
+          "description": " App that consumes the Coincase api to bring the information of the 20 most popular currencies in the market.  ",
+          "technologies": ["vue", "tailwindcss", "html", "css"],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 5,
+          "name": "Portfolio Web.",
+          "description": " Created with Laravel and Booststrap, a simple app to add tasks. In addition to sending tasks by email ",
+          "technologies": ["vue", "html", "css"],
+          "code": "",
+          "demo": ""
+        }
+      ],
+
+      "backend": [
+        {
+          "id": 1,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+        {
+          "id": 2,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 3,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 4,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 5,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        }
+      ],
+
+      "social": [
+        {
+          "id": 1,
+          "name": "github",
+          "url": "https://github.com/"
+        },
+
+        {
+          "id": 2,
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/"
+        },
+        {
+          "id": 3,
+          "name": "twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "id": 4,
+          "name": "instagram",
+          "url": "https://instagram.com/"
+        }
+      ]
+    },
+
+    "spanish": {
+      "name": "Edgar Gonzalez",
+      "profession": "Desarrollador Fullstack",
+
+      "aboutMe": [
+        {
+          "description": "¡Hola! Soy desarrollador Full-Stack enfocado en PHP, Node y Java. Tengo experiencia trabajando con: Laravel, PHP y Node. Así como tecnologías frontend tales como:  Vue, jQuery y JavaScript"
+        },
+        {
+          "legend": "Ah, tambien amo la comida"
+        }
+      ],
+
+      "frontend": [
+        {
+          "id": 1,
+          "name": "",
+          "description": "  ",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+        {
+          "id": 2,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 3,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 4,
+          "name": "",
+          "description": " ",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 5,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        }
+      ],
+
+      "backend": [
+        {
+          "id": 1,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+        {
+          "id": 2,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 3,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 4,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        },
+
+        {
+          "id": 5,
+          "name": "",
+          "description": "",
+          "technologies": [],
+          "code": "",
+          "demo": ""
+        }
+      ],
+
+      "social": [
+        {
+          "id": 1,
+          "name": "github",
+          "url": "https://github.com/"
+        },
+
+        {
+          "id": 2,
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/"
+        },
+        {
+          "id": 3,
+          "name": "twitter",
+          "url": "https://twitter.com/"
+        },
+        {
+          "id": 4,
+          "name": "instagram",
+          "url": "https://instagram.com/"
+        }
+      ]
+    }
+  }
+}
