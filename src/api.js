@@ -7,8 +7,19 @@ async function getHeroData() {
 
     return [{ name: data.english.name, profession: data.english.profession }];
   } catch (error) {
-    return console.error(error);
+    console.error(error);
   }
 }
 
-export default { getHeroData };
+async function getSkillCardData() {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return data.english.skills;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+export default { getHeroData, getSkillCardData };

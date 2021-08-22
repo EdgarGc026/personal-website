@@ -2,7 +2,8 @@
   <section class="skills">
     <h2 class="title-head">Skills</h2>
     <section class="grid">
-      <div class="items">
+      <px-skill-card />
+      <!--<div class="items">
         <div class="item">
           <font-awesome-icon :icon="['fab', 'laravel']" class="fab fa" />
           <h3 class="skills-title">Laravel.</h3>
@@ -10,7 +11,6 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
         </div>
-
         <div class="item">
           <font-awesome-icon
             :icon="['fab', 'wordpress-simple']"
@@ -48,8 +48,19 @@
           <p style="display: none">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-        </div>
-      </div>
+        </div> 
+      </div>-->
     </section>
   </section>
 </template>
+
+<script>
+import PxSkillCard from "@/components/PxSkillCard";
+
+export default {
+  name: "PxSkill",
+  components: {
+    PxSkillCard,
+  },
+};
+</script>

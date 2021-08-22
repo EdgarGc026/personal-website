@@ -4,6 +4,39 @@
       "name": "Edgar Gonzalez",
       "profession": "FullStack Developer",
 
+      "skills": [
+        {
+          "id": 1,
+          "name": "Laravel",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 2,
+          "name": "WordPress",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 3,
+          "name": "PHP",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 4,
+          "name": "Vue",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 5,
+          "name": "jQuery",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 6,
+          "name": "JavaScript",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        }
+      ],
+
       "aboutMe": [
         {
           "description": "Hello! I am Full-Stack developer focused on PHP, Node and Java. I have experience working with: Laravel, PHP and Node. As well as frontend technologies such as: vue, jQuery and Javascript "
@@ -133,6 +166,39 @@
     "spanish": {
       "name": "Edgar Gonzalez",
       "profession": "Desarrollador Fullstack",
+
+      "skills": [
+        {
+          "id": 1,
+          "name": "Laravel",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 2,
+          "name": "WordPress",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 3,
+          "name": "PHP",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 4,
+          "name": "Vue",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 5,
+          "name": "jQuery",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        },
+        {
+          "id": 6,
+          "name": "JavaScript",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
+        }
+      ],
 
       "aboutMe": [
         {

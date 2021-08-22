@@ -1,7 +1,8 @@
 <template>
   <main>
     <px-hero />
-    <!--     <px-skill />
+    <px-skill />
+    <!--     
     <px-about />
     <px-portfolio />
     <px-footer />
@@ -11,7 +12,8 @@
 
 <script>
 import PxHero from "@/components/PxHero";
-/* import PxSkill from "@/components/PxSkill";
+import PxSkill from "@/components/PxSkill";
+/* 
 import PxAbout from "@/components/PxAbout";
 import PxPortfolio from "@/components/PxPortfolio";
 import PxFooter from "@/components/PxFooter";
@@ -22,8 +24,8 @@ export default {
 
   components: {
     PxHero,
-    /*     PxSkill,
-    PxAbout,
+    PxSkill,
+    /*PxAbout,
     PxPortfolio,
     PxFooter,
     PxFloat, */
