@@ -33,4 +33,32 @@ async function getAboutMeData() {
   }
 }
 
-export default { getHeroData, getSkillCardData, getAboutMeData };
+async function getFrontendData() {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return data.english.frontend;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+async function getFooterData() {
+  try {
+    const responase = await fetch(url);
+    const data = await responase.json();
+
+    return data.english.social;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+export default {
+  getHeroData,
+  getSkillCardData,
+  getAboutMeData,
+  getFrontendData,
+  getFooterData,
+};
