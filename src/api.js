@@ -1,4 +1,5 @@
-const url = `http://localhost:3000/data`;
+// const url = `http://localhost:3000/data`;
+const url = `https://my-json-server.typicode.com/edgargc026/demo/data`;
 
 async function getHeroData() {
   try {
