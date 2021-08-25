@@ -46,20 +46,20 @@
       "frontend": [
         {
           "id": 1,
-          "name": "Expense Report",
-          "description": " Created with Laravel and Booststrap, a simple app to add tasks. In addition to sending tasks by email ",
+          "name": "Cody Holiday",
+          "description": " Created with HTML and CSS, SPA showing the cody vacations. Cody's pet from CodigoFacilito ",
           "technologies": [
-            { "id": 1, "name": "laravel" },
-            { "id": 2, "name": "bootstrap" },
-            { "id": 3, "name": "php" }
+            { "id": 1, "name": "html5" },
+            { "id": 2, "name": "css3" },
+            { "id": 3, "name": "js" }
           ],
-          "source": "https://github.com/EdgarGc026/GeneradorReporte",
-          "demo": "http://limitless-meadow-15028.herokuapp.com/login"
+          "source": "https://github.com/EdgarGc026/vacaciones-cody",
+          "demo": "edgargc026.github.io/vacaciones-cody/"
         },
         {
           "id": 2,
           "name": "Batatabit movil",
-          "description": " Static page for a bitcoin company.  ",
+          "description": " Created with HTML and CSS. Static page for a bitcoin company.",
           "technologies": [
             { "id": 1, "name": "html5" },
             { "id": 2, "name": "css3" }
@@ -113,7 +113,7 @@
           "id": 1,
           "name": "",
           "description": "",
-          "technologies": [],
+          "technologies": [{}, {}, {}],
           "source": "",
           "demo": ""
         },
@@ -219,55 +219,71 @@
       "aboutMe": [
         {
           "description": "¡Hola! Soy desarrollador Full-Stack enfocado en PHP, Node y Java. Tengo experiencia trabajando con: Laravel, PHP y Node. Así como tecnologías frontend tales como:  Vue, jQuery y JavaScript"
-        },
-        {
-          "legend": "Ah, tambien amo la comida"
         }
       ],
 
       "frontend": [
         {
           "id": 1,
-          "name": "",
-          "description": "  ",
-          "technologies": [],
-          "code": "",
-          "demo": ""
+          "name": "Vacaciones con Cody",
+          "description": " Creado con HTML y CSS, SPA que muestra las vacaciones con cody. Cody es la mascota de CodigoFacilito ",
+          "technologies": [
+            { "id": 1, "name": "html5" },
+            { "id": 2, "name": "css3" },
+            { "id": 3, "name": "js" }
+          ],
+          "source": "https://github.com/EdgarGc026/vacaciones-cody",
+          "demo": "edgargc026.github.io/vacaciones-cody/"
         },
         {
           "id": 2,
-          "name": "",
-          "description": "",
-          "technologies": [],
-          "code": "",
-          "demo": ""
+          "name": "Batatabit movil",
+          "description": " Creada con HTML y CSS. Pagina estatica para una compañia de Bitcoins.",
+          "technologies": [
+            { "id": 1, "name": "html5" },
+            { "id": 2, "name": "css3" }
+          ],
+          "source": "https://github.com/EdgarGc026/batatabit-mobile",
+          "demo": "https://edgargc026.github.io/batatabit-mobile/"
         },
 
         {
           "id": 3,
-          "name": "",
-          "description": "",
-          "technologies": [],
-          "code": "",
-          "demo": ""
+          "name": "Creaty Agency",
+          "description": " Creada con Vuejs, HTML y CSS. SPA creada para una agencia de desarrollo web. ",
+          "technologies": [
+            { "id": 1, "name": "vuejs" },
+            { "id": 2, "name": "html5" },
+            { "id": 3, "name": "css3" }
+          ],
+          "source": "https://github.com/EdgarGc026/vue-agency",
+          "demo": "https://vue-agency.netlify.app/"
         },
 
         {
           "id": 4,
-          "name": "",
-          "description": " ",
-          "technologies": [],
-          "code": "",
-          "demo": ""
+          "name": "Exchange, Crytpo App",
+          "description": " Aplicacion que consume la API de Coincase, la cual te muestra la informacion de las 20 criptomonedas mas populares del momento.",
+          "technologies": [
+            { "id": 1, "name": "vuejs" },
+            { "id": 3, "name": "html5" },
+            { "id": 4, "name": "css3" }
+          ],
+          "source": "https://github.com/EdgarGc026/exchange-app",
+          "demo": "https://exchange-cripto-app.netlify.app"
         },
 
         {
           "id": 5,
-          "name": "",
-          "description": "",
-          "technologies": [],
-          "code": "",
-          "demo": ""
+          "name": "Portafolio Web.",
+          "description": " Creado con Vuejs, HTML y CSS, La SPA que estas mirando actualmente.  ",
+          "technologies": [
+            { "id": 1, "name": "vuejs" },
+            { "id": 2, "name": "html5" },
+            { "id": 3, "name": "css3" }
+          ],
+          "source": "https://github.com/EdgarGc026/my-personal-website",
+          "demo": "https://edgargc026.github.io/my-personal-website/"
         }
       ],
 
@@ -276,16 +292,16 @@
           "id": 1,
           "name": "",
           "description": "",
-          "technologies": [],
-          "code": "",
+          "technologies": [{}],
+          "source": "",
           "demo": ""
         },
         {
           "id": 2,
           "name": "",
           "description": "",
-          "technologies": [],
-          "code": "",
+          "technologies": [{}],
+          "source": "",
           "demo": ""
         },
 
@@ -293,8 +309,8 @@
           "id": 3,
           "name": "",
           "description": "",
-          "technologies": [],
-          "code": "",
+          "technologies": [{}],
+          "source": "",
           "demo": ""
         },
 
@@ -302,8 +318,8 @@
           "id": 4,
           "name": "",
           "description": "",
-          "technologies": [],
-          "code": "",
+          "technologies": [{}],
+          "source": "",
           "demo": ""
         },
 
@@ -311,33 +327,9 @@
           "id": 5,
           "name": "",
           "description": "",
-          "technologies": [],
-          "code": "",
+          "technologies": [{}],
+          "source": "",
           "demo": ""
-        }
-      ],
-
-      "social": [
-        {
-          "id": 1,
-          "name": "github",
-          "url": "https://github.com/"
-        },
-
-        {
-          "id": 2,
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/"
-        },
-        {
-          "id": 3,
-          "name": "twitter",
-          "url": "https://twitter.com/"
-        },
-        {
-          "id": 4,
-          "name": "instagram",
-          "url": "https://instagram.com/"
         }
       ]
     }

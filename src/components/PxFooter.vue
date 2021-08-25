@@ -5,7 +5,7 @@
         <h2 class="subtitle">Contact me</h2>
       </div>
       <div class="footer-item" v-for="param in params" :key="param.id">
-        <a :href="param.url">
+        <a :href="param.url" target="_blank">
           <font-awesome-icon :icon="['fab', param.name]" class="fab fa" />
         </a>
       </div>
