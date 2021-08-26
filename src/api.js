@@ -101,6 +101,17 @@ async function getFrontendSpanishData() {
   }
 }
 
+async function getBackendSpanishData() {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return data.spanish.backend;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 export default {
   getHeroData,
   getSkillCardData,
@@ -111,4 +122,5 @@ export default {
   getHeroSpanishData,
   getAboutMeSpanishData,
   getFrontendSpanishData,
+  getBackendSpanishData,
 };

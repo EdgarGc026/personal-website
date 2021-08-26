@@ -4,12 +4,12 @@
     <ul>
       <li @click="frontendProjects">
         <img src="../assets/img/js.svg" alt="javascript-logo" />
-        Change to JavaScript projects
+        Change to frontend projects
       </li>
       <li @click="backendProjects">
         <img src="../assets/img/php.svg" alt="php-logo" />
 
-        Change to PHP projects
+        Change to backend projects
       </li>
       <li @click="englishVersion">
         <img src="../assets/img/united-states.svg" alt="usa-logo" />
