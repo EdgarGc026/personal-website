@@ -11,27 +11,19 @@
           src="../assets/img/Perfil.png"
           alt="Perfil-image"
         />
-        <span class="about--legend"> I also loved the food 🤤</span>
+        <span class="about--legend"> loved food 🤤</span>
       </div>
     </section>
   </section>
 </template>
 
 <script>
-import api from "@/api";
 export default {
   name: "PxAbout",
-  data() {
-    return {
-      params: [],
-    };
-  },
-
-  created() {
-    api
-      .getAboutMeData()
-      .then((params) => (this.params = params))
-      .catch((error) => console.error(error));
+  computed: {
+    params() {
+      return this.$store.state.aboutParams;
+    },
   },
 };
 </script>

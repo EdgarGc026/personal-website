@@ -97,25 +97,29 @@
         {
           "id": 5,
           "name": "Portfolio Web.",
-          "description": " Created with Laravel and Booststrap, a simple app to add tasks. In addition to sending tasks by email ",
+          "description": " Created with Vuejs, HTML and CSS, SPA that you can see just now ",
           "technologies": [
             { "id": 1, "name": "vuejs" },
             { "id": 2, "name": "html5" },
             { "id": 3, "name": "css3" }
           ],
-          "source": "https://github.com/EdgarGc026/my-personal-website",
-          "demo": "https://edgargc026.github.io/my-personal-website/"
+          "source": "https://github.com/EdgarGc026/personal-website",
+          "demo": "https://edggc026.netlify.app/"
         }
       ],
 
       "backend": [
         {
           "id": 1,
-          "name": "",
-          "description": "",
-          "technologies": [{}, {}, {}],
-          "source": "",
-          "demo": ""
+          "name": "Expense Report",
+          "description": "Created with Laravel, Bootstrap and PHP. Expense Report. ",
+          "technologies": [
+            { "id": 0, "name": "laravel" },
+            { "id": 1, "name": "bootstrap" },
+            { "id": 2, "name": "php" }
+          ],
+          "source": "https://github.com/EdgarGc026/GeneradorReporte",
+          "demo": "http://limitless-meadow-15028.herokuapp.com/login"
         },
         {
           "id": 2,
@@ -183,39 +187,6 @@
       "name": "Edgar Gonzalez",
       "profession": "Desarrollador Fullstack",
 
-      "skills": [
-        {
-          "id": 1,
-          "name": "Laravel",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-        },
-        {
-          "id": 2,
-          "name": "WordPress",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-        },
-        {
-          "id": 3,
-          "name": "PHP",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-        },
-        {
-          "id": 4,
-          "name": "Vue",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-        },
-        {
-          "id": 5,
-          "name": "jQuery",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-        },
-        {
-          "id": 6,
-          "name": "JavaScript",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit"
-        }
-      ],
-
       "aboutMe": [
         {
           "description": "¡Hola! Soy desarrollador Full-Stack enfocado en PHP, Node y Java. Tengo experiencia trabajando con: Laravel, PHP y Node. Así como tecnologías frontend tales como:  Vue, jQuery y JavaScript"
@@ -282,8 +253,8 @@
             { "id": 2, "name": "html5" },
             { "id": 3, "name": "css3" }
           ],
-          "source": "https://github.com/EdgarGc026/my-personal-website",
-          "demo": "https://edgargc026.github.io/my-personal-website/"
+          "source": "https://github.com/EdgarGc026/personal-website",
+          "demo": "https://edggc026.netlify.app/"
         }
       ],
 

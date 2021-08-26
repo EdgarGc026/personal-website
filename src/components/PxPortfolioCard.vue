@@ -40,25 +40,12 @@
 </template>
 
 <script>
-import api from "@/api";
 export default {
   name: "PxPortfolioCard",
-  data() {
-    return {
-      params: [],
-    };
-  },
-
-  created() {
-    api
-      .getFrontendData()
-      .then((params) => (this.params = params))
-      .catch((error) => console.error(error));
-  },
 
   computed: {
-    getImg() {
-      return console.log("foo");
+    params() {
+      return this.$store.state.frontendParams;
     },
   },
 };

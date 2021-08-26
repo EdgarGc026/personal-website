@@ -1,5 +1,5 @@
-// const url = `http://localhost:3000/data`;
-const url = `https://my-json-server.typicode.com/edgargc026/demo/data`;
+const url = `http://localhost:3000/data`;
+// const url = `https://my-json-server.typicode.com/edgargc026/demo/data`;
 
 async function getHeroData() {
   try {
@@ -45,6 +45,17 @@ async function getFrontendData() {
   }
 }
 
+async function getBackendData() {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return data.english.backend;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 async function getFooterData() {
   try {
     const responase = await fetch(url);
@@ -56,10 +67,48 @@ async function getFooterData() {
   }
 }
 
+// Spanish version
+async function getHeroSpanishData() {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return [{ name: data.spanish.name, profession: data.spanish.profession }];
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+async function getAboutMeSpanishData() {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return data.spanish.aboutMe;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+async function getFrontendSpanishData() {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+
+    return data.spanish.frontend;
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 export default {
   getHeroData,
   getSkillCardData,
   getAboutMeData,
   getFrontendData,
+  getBackendData,
   getFooterData,
+  getHeroSpanishData,
+  getAboutMeSpanishData,
+  getFrontendSpanishData,
 };

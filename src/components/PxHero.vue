@@ -22,20 +22,12 @@
 </template>
 
 <script>
-import api from "@/api.js";
 export default {
   name: "PxHero",
-  data() {
-    return {
-      params: [],
-    };
-  },
-
-  created() {
-    api
-      .getHeroData()
-      .then((params) => (this.params = params))
-      .catch((error) => console.error(error));
+  computed: {
+    params() {
+      return this.$store.state.params;
+    },
   },
 };
 </script>
